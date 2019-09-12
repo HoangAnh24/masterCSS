@@ -1,11 +1,19 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap' ;
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap';
 @import 'header.css';
-body { 
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	line-height: 24px;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+mt-100 {
+    margin-top: 100px;
 }
