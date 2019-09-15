@@ -7,6 +7,7 @@
   z-index: 10;
   background-color: #ffffff;
 }
+
 #header .wrap-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,22 +20,26 @@
           align-items: center;
   padding: 10px 0;
 }
+
 #header .wrap-header .header-right ul {
   margin: 0;
 }
+
 #header .wrap-header .header-right ul li {
   display: inline-block;
 }
+
 #header .wrap-header .header-right ul li a {
   color: #0098ab;
 }
+
 #header .wrap-header .header-right ul li:not(:first-child) {
   margin-left: 10px;
 }
+
 #header .wrap-header .header-right ul li:first-child {
   padding-right: 10px;
   border-right: 1px solid #0098ab;
   font-weight: 700;
 }
-
 /*# sourceMappingURL=header.css.map */
