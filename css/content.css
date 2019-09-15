@@ -43,6 +43,11 @@
   padding: 0 40px;
 }
 
+.hna-img-single {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
 .hna-categories ul.list-cate {
   margin: 0 -10px;
   list-style-type: none;
@@ -61,6 +66,7 @@
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .hna-categories ul.list-cate .item .inner-item a {
   font-size: 16px;
