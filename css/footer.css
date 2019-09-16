@@ -41,6 +41,11 @@ footer .widget-footer .widget-info .hna-socails li a {
 footer .widget-footer .widget-info .hna-socails li:not(:last-child) {
   margin-right: 26px;
 }
+@media only screen and (max-width: 1024px) {
+  footer .widget-footer .widget-info .hna-socails li:not(:last-child) {
+    margin-right: 15px;
+  }
+}
 footer .widget-footer .widget-info .wrap-select {
   position: relative;
   margin-bottom: 30px;
@@ -82,6 +87,21 @@ footer .widget-footer .widget-info .wrap-img-app a {
 }
 footer .widget-footer .widget-info .wrap-img-app a img {
   max-width: 160px;
+}
+@media only screen and (max-width: 1024px) {
+  footer .widget-footer .widget-info .wrap-img-app a img {
+    max-width: 90px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer .widget-footer .widget-info .wrap-img-app a img {
+    max-width: 160px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer .widget-footer .widget-info .wrap-img-app a img {
+    max-width: 100px;
+  }
 }
 footer .hna-link {
   font-size: 16px;

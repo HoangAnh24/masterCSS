@@ -1,3 +1,4 @@
+@import 'responsive'
 footer
     background-color: #353e48
     padding-top: 100px
@@ -32,6 +33,8 @@ footer
                         color: hsla(0,0%,100%,.7)
                 li:not(:last-child)
                     margin-right: 26px
+                    @include responsive(MD)
+                        margin-right: 15px
             .wrap-select
                 position: relative
                 margin-bottom: 30px
@@ -63,6 +66,12 @@ footer
                     display: inline-block
                     img
                         max-width: 160px
+                        @include responsive(MD)
+                            max-width: 90px
+                        @include responsive(SM)
+                            max-width: 160px
+                        @include responsive(XS)
+                            max-width: 100px
     .hna-link
         font-size: 16px
         padding-bottom: 30px
